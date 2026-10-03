@@ -1,0 +1,9 @@
+pytesseract>=0.3.10
+Pillow>=10.0.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+mcp>=2.0.0
+langgraph>=1.0.0
+langchain-ollama>=0.3.0
+streamlit>=1.40.0
+sentry-sdk>=2.70.0

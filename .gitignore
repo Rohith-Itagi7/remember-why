@@ -1,0 +1,75 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/config.toml
+.netrc
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Downloaded models and model caches
+.cache/
+.ollama/
+ollama/
+huggingface/
+models/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.model
+
+# Private user data and generated screenshot indexes
+data/screenshots/*
+!data/screenshots/.gitkeep
+data/posts/*
+!data/posts/.gitkeep
+data/notes/*
+!data/notes/.gitkeep
+data/goals/*
+!data/goals/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# Test, build, and temporary outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+test-results/
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
